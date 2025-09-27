@@ -4,7 +4,7 @@
   <img src="assets/ragex-badge.png" alt="RagEx Logo" width="200" height="200">
 </div>
 
-[![Elixir CI](https://github.com/your-org/rag_ex/actions/workflows/elixir.yml/badge.svg)](https://github.com/your-org/rag_ex/actions/workflows/elixir.yml)
+[![Elixir CI](https://github.com/dhippley/rag_ex/actions/workflows/elixir.yml/badge.svg)](https://github.com/dhippley/rag_ex/actions/workflows/elixir.yml)
 [![Hex.pm](https://img.shields.io/hexpm/v/rag_ex.svg)](https://hex.pm/packages/rag_ex)
 [![HexDocs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/rag_ex/)
 
@@ -52,7 +52,7 @@ RagEx is a standalone OTP application that watches your codebase, ingests code c
 ### From Source
 
 ```bash
-git clone https://github.com/your-org/rag_ex.git
+git clone https://github.com/dhippley/rag_ex.git
 cd rag_ex
 mix deps.get
 mix compile
