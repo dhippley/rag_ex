@@ -1,6 +1,7 @@
 defmodule RagEx do
   @moduledoc """
-  Documentation for `RagEx`.
+  RagEx - A standalone OTP app that watches a repository, ingests chunks/embeddings,
+  and exposes a local HTTP API for coding agents.
   """
 
   @doc """
