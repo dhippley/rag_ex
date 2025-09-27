@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="400" viewBox="0 0 1400 400">
+  <rect width="100%" height="100%" fill="white"/>
+  <g transform="translate(50,300)">
+    <text x="0" y="0" font-family="Inter, Arimo, Arial, Helvetica, sans-serif" font-size="260" font-weight="700" fill="#3C1A6D" letter-spacing="1">
+      RagEx
+    </text>
+  </g>
+</svg>
