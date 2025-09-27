@@ -100,7 +100,8 @@ curl "http://localhost:7788/v1/context?query=authentication&budget=2000"
 
 ## Configuration
 
-Basic configuration is handled through environment variables and `config/config.exs`. For detailed configuration options, see [Configuration Guide](README-CONFIG.md).
+Basic configuration is handled through environment variables and `config/config.exs`. 
+For detailed configuration options [Configuration Guide](README-CONFIG.md).
 
 ### Quick Setup
 
@@ -121,7 +122,8 @@ config :rag_ex, RagEx.Repo,
 
 ## AI Coding Assistant Integration
 
-RagEx integrates seamlessly with popular AI coding assistants including Cursor, VS Code Copilot, Windsurf, and Zed. For detailed integration guides and examples, see [AI Integration Guide](README-INTEGRATION.md).
+RagEx integrates seamlessly with popular AI coding assistants including Cursor, VS Code Copilot, Windsurf, and Zed. 
+For detailed integration guides and examples, see [AI Integration Guide](README-INTEGRATION.md).
 
 ### Quick Start
 
@@ -139,7 +141,8 @@ RagEx integrates seamlessly with popular AI coding assistants including Cursor, 
 
 ## API Reference
 
-RagEx provides a simple HTTP API for code search and context retrieval. For complete API documentation with examples, see [API Reference](README-API.md).
+RagEx provides a simple HTTP API for code search and context retrieval. 
+For complete API documentation with examples, see [API Reference](README-API.md).
 
 ### Quick Examples
 
