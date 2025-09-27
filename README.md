@@ -1,7 +1,7 @@
 # RagEx
 
 <div align="center">
-  <img src="assets/ragex-badge.png" alt="RagEx Logo" width="200" height="200">
+  <img src="assets/ragex-badge-hex-only.png" alt="RagEx Logo" width="200" height="200">
 </div>
 
 [![Elixir CI](https://github.com/dhippley/rag_ex/actions/workflows/elixir.yml/badge.svg)](https://github.com/dhippley/rag_ex/actions/workflows/elixir.yml)
@@ -16,7 +16,7 @@ RagEx is a standalone OTP application that watches your codebase, ingests code c
 
 - **Real-time Code Ingestion**: Automatically watches file system changes and ingests code chunks
 - **Vector Similarity Search**: High-performance cosine similarity search using Nx tensors
-- **MMR Algorithm**: Maximal Marginal Relevance for diverse, non-redundant context selection
+- **MMR Algorithm**: Maximal Marginal Relevance for diverse, non-redundyour-organt context selection
 - **Token Budget Management**: Intelligent context packing within specified token limits
 - **HTTP API**: RESTful endpoints for search, context retrieval, and ingestion control
 - **SQLite Storage**: Efficient local storage with proper indexing and WAL mode
@@ -26,7 +26,7 @@ RagEx is a standalone OTP application that watches your codebase, ingests code c
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Configuration](#configuration)
+- [Configuration](#configuration)your-org
 - [API Reference](#api-reference)
 - [AI Integration](#ai-coding-assistant-integration)
 - [Architecture](#architecture)
