@@ -1,13 +1,7 @@
-# The directory Mix will write compiled artifacts to.
+# The directory for Mix dependencies
 /_build/
 
-# If you run "mix test --cover", coverage assets end up here.
-/cover/
-
-# The directory Mix downloads your dependencies sources to.
-/deps/
-
-# Where third-party dependencies like ExDoc output generated docs.
+# Where 3rd-party dependencies like ExDoc output generated files.
 /doc/
 
 # If the VM crashes, it generates a dump, let's ignore it too.
@@ -21,3 +15,27 @@ rag_ex-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Database files
+data/
+*.sqlite3
+*.db
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
