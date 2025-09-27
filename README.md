@@ -1,5 +1,9 @@
 # RagEx
 
+<div align="center">
+  <img src="assets/ragex-badge.png" alt="RagEx Logo" width="200" height="200">
+</div>
+
 [![Elixir CI](https://github.com/your-org/rag_ex/actions/workflows/elixir.yml/badge.svg)](https://github.com/your-org/rag_ex/actions/workflows/elixir.yml)
 [![Hex.pm](https://img.shields.io/hexpm/v/rag_ex.svg)](https://hex.pm/packages/rag_ex)
 [![HexDocs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/rag_ex/)
@@ -31,9 +35,11 @@ RagEx is a standalone OTP application that watches your codebase, ingests code c
 - [License](#license)
 
 > **Note**: This README provides an overview. For detailed documentation, see the tabbed sections:
-> - **[API Reference](README-API.md)** - Complete API documentation with examples
-> - **[AI Integration](README-INTEGRATION.md)** - Integration with Cursor, VS Code, Windsurf, and Zed
-> - **[Configuration](README-CONFIG.md)** - Detailed configuration options and examples
+> - **[API Reference](.github/README-API.md)** - Complete API documentation with examples
+> - **[AI Integration](.github/README-INTEGRATION.md)** - Integration with Cursor, VS Code, Windsurf, and Zed
+> - **[Configuration](.github/README-CONFIG.md)** - Detailed configuration options and examples
+> - **[Contributing](.github/README-CONTRIBUTING.md)** - Guidelines for contributing to RagEx
+> - **[License](.github/README-LICENSE.md)** - MIT License and legal information
 
 ## Installation
 
@@ -355,34 +361,19 @@ config :rag_ex, RagEx.Repo, log: :debug
 
 ## Contributing
 
+We welcome contributions! For detailed guidelines, see [Contributing Guide](.github/README-CONTRIBUTING.md).
+
+### Quick Start
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
 3. Make your changes and add tests
 4. Run the test suite: `mix test`
-5. Commit your changes: `git commit -m 'Add amazing feature'`
-6. Push to the branch: `git push origin feature/amazing-feature`
-7. Open a Pull Request
-
-### Development Setup
-
-```bash
-# Clone and setup
-git clone https://github.com/your-org/rag_ex.git
-cd rag_ex
-mix deps.get
-mix ecto.create
-mix ecto.migrate
-
-# Run tests
-mix test
-
-# Start development server
-iex -S mix
-```
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For complete license information, see [License](.github/README-LICENSE.md).
 
 ## Acknowledgments
 
